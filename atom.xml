@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Wentao-Hu</title>
-  
+  <icon>https://www.gravatar.com/avatar/fdf0eaff3fdc1b1ef4cb20ad0e0b8e45</icon>
   <subtitle>To be a programmer.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>Hu Wentao</name>
-    
+    <email>1070359898@qq.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -37,7 +37,7 @@
       <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
     
     
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+      <category term="test" scheme="http://yoursite.com/%E6%A0%87%E7%AD%BE/test/"/>
     
   </entry>
   
