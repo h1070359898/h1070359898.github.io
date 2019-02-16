@@ -80,6 +80,7 @@
       本文总阅读量<span id="busuanzi_value_page_pv"></span>次
     </span>
   
+
   <div class="article-inner">
     
     <div class="article-content article-content-doorframe" itemprop="articleBody">
@@ -95,6 +96,20 @@
   </div>
   
     
+    <div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  owner: '',
+  repo: '',
+  oauth: {
+    client_id: '',
+    client_secret: '',
+  },
+})
+gitment.render('gitmentContainer')
+</script>
   
   
     
@@ -118,7 +133,6 @@
     </div>
     <!-- City版安装代码已完成 -->
 </section>
-  
   
 </article></section>
         <aside id="sidebar">
