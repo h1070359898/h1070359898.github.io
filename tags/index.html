@@ -200,10 +200,15 @@
       </div>
 	  <!-- 页面点击小红心 -->
       <footer id="footer">
-  <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-  <script>
-    var now = new Date(); 
-    function createtime() { 
+  <div class="foot-box global-width">
+    &copy; 2019 Hu Wentao &nbsp;&nbsp;
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a><br>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">阁下是第<span id="busuanzi_value_site_pv"></span>个访客</span>
+	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+    <script>
+      var now = new Date(); 
+      function createtime() { 
         var grt= new Date("02/14/2018 12:49:00");//此处修改你的建站时间或者网站上线时间 
         now.setTime(now.getTime()+250); 
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
@@ -215,14 +220,8 @@
         document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
     } 
-  setInterval("createtime()",250);
-  </script>
-  
-  <div class="foot-box global-width">
-    &copy; 2019 Hu Wentao &nbsp;&nbsp;
-    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a><br>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span id="busuanzi_container_site_pv">阁下是第<span id="busuanzi_value_site_pv"></span>个访客</span>
+    setInterval("createtime()",250);
+    </script>
   </div>
   
 </footer>
