@@ -197,15 +197,16 @@
         document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
     } 
+	</div>
+    <div class="theme-info">
+    <div class="powered-by"></div>
+    <span class="post-count">本博客全站共{{ totalcount(site) }}字</span>
+    </div>
     setInterval("createtime()",250);
     </script>
-  </div>
-  <div class="theme-info">
-  <div class="powered-by"></div>
-  <span class="post-count">本博客全站共{{ totalcount(site) }}字</span>
-  </div>
   
-</footer>
+  
+</div></footer>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <script src="/js/jquery-2.0.3.min.js"></script>
