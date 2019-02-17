@@ -55,7 +55,7 @@
       <category term="中文" scheme="http://yoursite.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="测试" scheme="http://yoursite.com/%E6%A0%87%E7%AD%BE%E7%9B%AE%E5%BD%95/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -79,7 +79,7 @@
       <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
     
     
-      <category term="test" scheme="http://yoursite.com/%E6%A0%87%E7%AD%BE%E7%9B%AE%E5%BD%95/test/"/>
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
     
   </entry>
   
