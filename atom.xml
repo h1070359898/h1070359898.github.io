@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-17T03:07:50.899Z</updated>
+  <updated>2019-02-26T13:56:36.018Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo+github搭建个人博客</title>
+    <link href="http://yoursite.com/2019/02/26/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2019/02/26/hexo-github搭建个人博客/</id>
+    <published>2019-02-26T13:54:27.000Z</published>
+    <updated>2019-02-26T13:56:36.018Z</updated>
+    
+    <content type="html"><![CDATA[<p>录音：刘文扬、佟新宇<br>混音：刘文扬、佟新宇<br>录音室：青春繁花录音室<br>箫演奏：陈昱融<br>弦乐演奏：国际首席爱乐乐团<br>配唱制作人：刘炫豆<br>制作人：刘靖<br>监制：刘靖、杨宇<br>音乐制作：青春繁花<br>音乐出品发行：正午阳光影业、世纪中腾</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;录音：刘文扬、佟新宇&lt;br&gt;混音：刘文扬、佟新宇&lt;br&gt;录音室：青春繁花录音室&lt;br&gt;箫演奏：陈昱融&lt;br&gt;弦乐演奏：国际首席爱乐乐团&lt;br&gt;配唱制作人：刘炫豆&lt;br&gt;制作人：刘靖&lt;br&gt;监制：刘靖、杨宇&lt;br&gt;音乐制作：青春繁花&lt;br&gt;音乐出品发行：正午阳光影业、世纪中腾
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>代码测试</title>
@@ -40,9 +61,9 @@
     <link href="http://yoursite.com/2019/02/15/First-Test/"/>
     <id>http://yoursite.com/2019/02/15/First-Test/</id>
     <published>2019-02-15T12:30:09.000Z</published>
-    <updated>2019-02-17T12:12:19.190Z</updated>
+    <updated>2019-02-26T13:56:05.028Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="First-Test"><a href="#First-Test" class="headerlink" title="First Test"></a>First Test</h2><h3 id="中文测试文章"><a href="#中文测试文章" class="headerlink" title="中文测试文章"></a>中文测试文章</h3><p>Hello,boys and gils!This is my first flog.</p><p>大家好</p><p>胡夏、郁可唯 - 知否知否(《知否知否应是绿肥红瘦》电视剧主题曲)<br>作词：李清照、张靖怡<br>作曲：刘炫豆<br>编曲：刘炫豆<br><a id="more"></a></p><p>录音：刘文扬、佟新宇<br>混音：刘文扬、佟新宇<br>录音室：青春繁花录音室<br>箫演奏：陈昱融<br>弦乐演奏：国际首席爱乐乐团<br>配唱制作人：刘炫豆<br>制作人：刘靖<br>监制：刘靖、杨宇<br>音乐制作：青春繁花<br>音乐出品发行：正午阳光影业、世纪中腾</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">一朝花开傍柳</span><br><span class="line">寻香误觅亭侯</span><br><span class="line">纵饮朝霞半日晖</span><br><span class="line">风雨着不透</span><br><span class="line">一任宫长骁瘦</span><br><span class="line">台高冰泪难流</span><br><span class="line">锦书送罢蓦回首</span><br><span class="line">无余岁可偷</span><br><span class="line">昨夜雨疏风骤</span><br><span class="line">浓睡不消残酒</span><br><span class="line">试问卷帘人</span><br><span class="line">却道海棠依旧</span><br><span class="line">知否 知否</span><br><span class="line">应是绿肥红瘦</span><br><span class="line">昨夜雨疏风骤</span><br><span class="line">浓睡不消残酒</span><br><span class="line">试问卷帘人</span><br><span class="line">却道海棠依旧</span><br><span class="line">知否 知否</span><br><span class="line">应是绿肥红瘦</span><br><span class="line">一朝花开傍柳</span><br><span class="line">寻香误觅亭侯</span><br><span class="line">纵饮朝霞半日晖</span><br><span class="line">风雨着不透</span><br><span class="line">一任宫长骁瘦</span><br><span class="line">台高冰泪难流</span><br><span class="line">锦书送罢蓦回首</span><br><span class="line">无余岁可偷</span><br><span class="line">昨夜雨疏风骤</span><br><span class="line">浓睡不消残酒</span><br><span class="line">试问卷帘人</span><br><span class="line">却道海棠依旧</span><br><span class="line">知否 知否</span><br><span class="line">应是绿肥红瘦</span><br><span class="line">昨夜雨疏风骤</span><br><span class="line">浓睡不消残酒</span><br><span class="line">试问卷帘人</span><br><span class="line">却道海棠依旧</span><br><span class="line">知否 知否</span><br><span class="line">应是绿肥红瘦</span><br><span class="line">昨夜雨疏风骤</span><br><span class="line">浓睡不消残酒</span><br><span class="line">试问卷帘人</span><br><span class="line">却道海棠依旧</span><br><span class="line">知否 知否</span><br><span class="line">应是绿肥红瘦</span><br><span class="line">昨夜雨疏风骤</span><br><span class="line">浓睡不消残酒</span><br><span class="line">试问卷帘人</span><br><span class="line">却道海棠依旧</span><br><span class="line">知否 知否</span><br><span class="line">应是绿肥红瘦</span><br><span class="line">知否 知否</span><br><span class="line">应是绿肥红瘦</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Zhifou Zhifou</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="First-Test"><a href="#First-Test" class="headerlink" title="First Test"></a>First Test</h2><h3 id="中文测试文章"><a href="#中文测试文章" class="headerlink" title="中文测试文章"></a>中文测试文章</h3><p>Hello,boys and gils!This is my first flog.</p><p>大家好</p><p>胡夏、郁可唯 - 知否知否(《知否知否应是绿肥红瘦》电视剧主题曲)<br>作词：李清照、张靖怡<br>作曲：刘炫豆<br>编曲：刘炫豆<br><a id="more"></a></p><p>录音：刘文扬、佟新宇<br>混音：刘文扬、佟新宇<br>录音室：青春繁花录音室<br>箫演奏：陈昱融<br>弦乐演奏：国际首席爱乐乐团<br>配唱制作人：刘炫豆<br>制作人：刘靖<br>监制：刘靖、杨宇<br>音乐制作：青春繁花<br>音乐出品发行：正午阳光影业、世纪中腾</p><p>一朝花开傍柳<br>寻香误觅亭侯<br>纵饮朝霞半日晖<br>风雨着不透<br>一任宫长骁瘦<br>台高冰泪难流<br>锦书送罢蓦回首<br>无余岁可偷<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>一朝花开傍柳<br>寻香误觅亭侯<br>纵饮朝霞半日晖<br>风雨着不透<br>一任宫长骁瘦<br>台高冰泪难流<br>锦书送罢蓦回首<br>无余岁可偷<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>知否 知否<br>应是绿肥红瘦</p>]]></content>
     
     <summary type="html">
     
@@ -56,6 +77,8 @@
     
     
       <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="中文" scheme="http://yoursite.com/tags/%E4%B8%AD%E6%96%87/"/>
     
   </entry>
   
