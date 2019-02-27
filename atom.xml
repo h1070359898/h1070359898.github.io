@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-26T14:06:00.738Z</updated>
+  <updated>2019-02-27T02:50:26.570Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/02/26/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2019/02/26/hexo-github搭建个人博客/</id>
     <published>2019-02-26T13:54:27.000Z</published>
-    <updated>2019-02-26T14:06:00.738Z</updated>
+    <updated>2019-02-27T02:50:26.570Z</updated>
     
-    <content type="html"><![CDATA[<p>录音：刘文扬、佟新宇<br>混音：刘文扬、佟新宇<br>录音室：青春繁花录音室<br>箫演奏：陈昱融<br>弦乐演奏：国际首席爱乐乐团<br>配唱制作人：刘炫豆</p><a id="more"></a><p>制作人：刘靖<br>监制：刘靖、杨宇<br>音乐制作：青春繁花<br>音乐出品发行：正午阳光影业、世纪中腾</p><p>一朝花开傍柳<br>寻香误觅亭侯<br>纵饮朝霞半日晖<br>风雨着不透<br>一任宫长骁瘦<br>台高冰泪难</p>]]></content>
+    <content type="html"><![CDATA[<p>录音：刘文扬、佟新宇<br>混音：刘文扬、佟新宇<br>录音室：青春繁花录音室<br>箫演奏：陈昱融<br>弦乐演奏：国际首席爱乐乐团<br>配唱制作人：刘炫豆</p><a id="more"></a><p>制作人：刘靖<br>监制：刘靖、杨宇<br>音乐制作：青春繁花<br>音乐出品发行：正午阳光影业、世纪中腾</p><p>一朝花开傍柳<br>寻香误觅亭侯<br>纵饮朝霞半日晖<br>风雨着不透<br>一任宫长骁瘦<br><img src="C:\Users\hwt1070359898\Desktop\untitled.png" alt="台高冰泪难"></p>]]></content>
     
     <summary type="html">
     
@@ -77,9 +77,9 @@
       <category term="中文" scheme="http://yoursite.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="中文" scheme="http://yoursite.com/tags/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
