@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wentao-Hu</title>
+  <icon>https://www.gravatar.com/avatar/fdf0eaff3fdc1b1ef4cb20ad0e0b8e45</icon>
+  <subtitle>To be a programmer.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-02-28T06:17:22.171Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Hu Wentao</name>
+    <email>1070359898@qq.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo搭建个人博客，博文插入图片</title>
+    <link href="http://yoursite.com/2019/02/28/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E5%8D%9A%E6%96%87%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
+    <id>http://yoursite.com/2019/02/28/hexo搭建个人博客，博文插入图片/</id>
+    <published>2019-02-28T05:44:50.000Z</published>
+    <updated>2019-02-28T06:17:22.171Z</updated>
+    
+    <content type="html"><![CDATA[<p>自己搭建的博客，显示不了图片？</p><p>没有程序猿解决不了的问题。。。。。</p><p>经过一番周折，终于可以了，先看效果———&gt;</p><p><img src="/2019/02/28/hexo搭建个人博客，博文插入图片/imges/hexo搭建个人博客，博文插入图片/hexo搭建个人博客，博文插入图片.jpg" alt="test"></p><p><img src="/2019/02/28/hexo搭建个人博客，博文插入图片/D:/Boke\hexo\source\_posts\images\hexo搭建个人博客，博文插入图片.jpg" alt=""></p><p>十分痛苦，是因为突然发现上传的博客里面的图片居然显示不来，excuse me??? </p><p>笋干shabi了<br>怎么办，上网google解决之道，然后又试了很多坑……. </p><p>更加绝望了…..<br>然后，看到了这个：dalao指导<br>hhhh，再试一次…..</p><p>然而，居然可以了….excuse me??</p><p>好吧，总结一下这个牛批的解决办法：</p><p>First</p><p>1 把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</p><p>2 在你的hexo目录下执行这样一句话npm install hexo-asset-image –save，这是下载安装一个可以上传本地图片的插件，来自dalao：dalao的git</p><p>3 等待一小段时间后，再运行hexo n “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹</p><p>Second</p><p>4 最后在xxxx.md中想引入图片时，先把图片复制到xxxx这个文件夹中，然后只需要在xxxx.md中按照markdown的格式引入图片：</p><p><img src="/2019/02/28/hexo搭建个人博客，博文插入图片/xxxx/图片名.jpg" alt="你想输入的替代文字"></p><p>注意： xxxx是这个md文件的名字，也是同名文件夹的名字。只需要有文件夹名字即可，不需要有什么绝对路径。你想引入的图片就只需要放入xxxx这个文件夹内就好了，很像引用相对路径。</p><p>5 最后检查一下，hexo g生成页面后，进入public\2017\02\26\index.html文件中查看相关字段，可以发现，html标签内的语句是<img src="/2019/02/28/hexo搭建个人博客，博文插入图片/2017/02/26/xxxx/图片名.jpg">，而不是&lt;img src=”xxxx/图片名.jpg&gt;。这很重要，关乎你的网页是否可以真正加载你想插入的图片。</p><p>总结一下这个跳（试）坑的过程</p><p>首先是有句mmp想讲，实在是有点坑</p><p>但是，似乎又多了一项学（zhuang）习（bi）技巧</p><p>hhh，先到这里，后面还有一个坑就是，想引入某些dalao 的链接时，如果链接里包含中文，那么再写入md文件里生成网页后这个链接就打不开了…..</p><p>待老夫研究后再填坑，后面如果有时间，就把自己搭建网站的过程码一下。 </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;自己搭建的博客，显示不了图片？&lt;/p&gt;
+&lt;p&gt;没有程序猿解决不了的问题。。。。。&lt;/p&gt;
+&lt;p&gt;经过一番周折，终于可以了，先看效果———&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2019/02/28/hexo搭建个人博客，博文插入图片/imges/hexo搭建个人博客，
+      
+    
+    </summary>
+    
+      <category term="跳坑" scheme="http://yoursite.com/categories/%E8%B7%B3%E5%9D%91/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="问题" scheme="http://yoursite.com/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>First Test</title>
+    <link href="http://yoursite.com/2019/02/27/First-Test/"/>
+    <id>http://yoursite.com/2019/02/27/First-Test/</id>
+    <published>2019-02-27T03:41:19.000Z</published>
+    <updated>2019-02-28T05:53:56.286Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="First-Test"><a href="#First-Test" class="headerlink" title="First Test"></a>First Test</h2><h3 id="中文测试文章"><a href="#中文测试文章" class="headerlink" title="中文测试文章"></a>中文测试文章</h3><p>Hello,boys and gils!This is my first flog.</p><p>大家好</p><p>胡夏、郁可唯 - 知否知否(《知否知否应是绿肥红瘦》电视剧主题曲)<br>作词：李清照、张靖怡<br>作曲：刘炫豆<br>编曲：刘炫豆<br><a id="more"></a></p><p>录音：刘文扬、佟新宇<br>混音：刘文扬、佟新宇<br>录音室：青春繁花录音室<br>箫演奏：陈昱融<br>弦乐演奏：国际首席爱乐乐团<br>配唱制作人：刘炫豆<br>制作人：刘靖<br>监制：刘靖、杨宇<br>音乐制作：青春繁花<br>音乐出品发行：正午阳光影业、世纪中腾</p><p>一朝花开傍柳<br>寻香误觅亭侯<br>纵饮朝霞半日晖<br>风雨着不透<br>一任宫长骁瘦<br>台高冰泪难流<br>锦书送罢蓦回首<br>无余岁可偷<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>一朝花开傍柳<br>寻香误觅亭侯<br>纵饮朝霞半日晖<br>风雨着不透<br>一任宫长骁瘦<br>台高冰泪难流<br>锦书送罢蓦回首<br>无余岁可偷<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>昨夜雨疏风骤<br>浓睡不消残酒<br>试问卷帘人<br>却道海棠依旧<br>知否 知否<br>应是绿肥红瘦<br>知否 知否<br>应是绿肥红瘦</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;First-Test&quot;&gt;&lt;a href=&quot;#First-Test&quot; class=&quot;headerlink&quot; title=&quot;First Test&quot;&gt;&lt;/a&gt;First Test&lt;/h2&gt;&lt;h3 id=&quot;中文测试文章&quot;&gt;&lt;a href=&quot;#中文测试文章&quot; class=&quot;headerlink&quot; title=&quot;中文测试文章&quot;&gt;&lt;/a&gt;中文测试文章&lt;/h3&gt;&lt;p&gt;Hello,boys and gils!This is my first flog.&lt;/p&gt;
+&lt;p&gt;大家好&lt;/p&gt;
+&lt;p&gt;胡夏、郁可唯 - 知否知否(《知否知否应是绿肥红瘦》电视剧主题曲)&lt;br&gt;作词：李清照、张靖怡&lt;br&gt;作曲：刘炫豆&lt;br&gt;编曲：刘炫豆&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="中文" scheme="http://yoursite.com/tags/%E4%B8%AD%E6%96%87/"/>
+    
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+    
+  </entry>
+  
+</feed>
